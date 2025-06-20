@@ -65,7 +65,6 @@ export default function TodoList({
                 Delete
               </button>
             </form>
-            {/* Edit functionality can be added here as a modal or inline form */}
           </div>
         </li>
       ))}
