@@ -22,7 +22,7 @@ export default async function Home() {
 
   if (!session || !session.user?.email) {
     return (
-      <main className="min-h-screen bg-gray-100 py-10">
+      <main className="min-h-screen bg-gray-100 py-10 text-black">
         <h1 className="text-3xl font-bold text-center mb-8">Todo App</h1>
         <p className="text-center">Please login first to add todos</p>
       </main>
